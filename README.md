@@ -1,6 +1,6 @@
 # npmtest-warning
 
-#### test coverage for  [warning (v3.0.0)](https://github.com/BerkeleyTrue/warning)  [![npm package](https://img.shields.io/npm/v/npmtest-warning.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-warning) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-warning.svg)](https://travis-ci.org/npmtest/node-npmtest-warning)
+#### basic test coverage for  [warning (v3.0.0)](https://github.com/BerkeleyTrue/warning)  [![npm package](https://img.shields.io/npm/v/npmtest-warning.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-warning) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-warning.svg)](https://travis-ci.org/npmtest/node-npmtest-warning)
 
 #### A mirror of Facebook's Warning
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-warning/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-warning/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-warning/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-warning/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-warning/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-warning/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-warning/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-warning/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-warning/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-warning/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-warning/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-warning/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
